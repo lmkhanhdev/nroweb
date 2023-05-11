@@ -1,0 +1,153 @@
+
+.new__born-head h1 {
+    margin: 5rem 0;
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.new__born {
+    border: 1px solid rgb(229, 231, 235);
+    margin-bottom: 1rem;
+    transition: transform 300ms;
+    border-radius: 5px;
+}
+
+.new__born:hover {
+    transform: scale(1.05)
+}
+
+.new__born-img {
+    position: relative;
+}
+
+.new__born-img img {
+    width: 100%;
+    border: 1px solid var(--secondary-color);
+}
+
+.new__born-img span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    z-index: 10;
+    background: var(--primary-color);
+    font-weight: 500;
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px 0 5px 0;
+}
+
+.new__born-img p {
+    width: 100%;
+    height: max-content;
+    color: #fff;
+    padding: 0.3rem 0;
+    background: var(--secondary-color);
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: -1px;
+    border-radius: 0 0 3px 3px;
+}
+
+
+.card__top {
+    margin-top: 1rem;
+}
+
+.new__born-bottom,
+.new__born-top {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.new__born-rating,
+.new__born-item {
+    font-size: 1rem;
+    color: var(--heading-color);
+    font-weight: 300;
+}
+
+.new__born-rating span,
+.new__born-item span {
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+.card__bottom {
+    margin-bottom: 1rem;
+}
+
+.new__born-price {
+    text-align: center;
+    margin-left: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 3px;
+    border: 1px solid var(--secondary-color);
+    color: var(--heading-color);
+    font-weight: 500;
+}
+
+.new__born-price span {
+    color: var(--secondary-color);
+}
+
+
+.detail__btn a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--heading-color);
+    font-weight: 400;
+    background: #00a651;
+    padding: 0.4rem 0.4rem;
+    border-radius: 3px;
+    border: 1px solid #00a651;
+}
+
+.detail__btn a:hover {
+    color: var(--heading-color);
+    background: none;
+}
+
+.pagination span {
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--secondary-color);
+    color: var(--heading-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.active__page {
+    background: var(--secondary-color);
+    color: #fff !important;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .new__born-price  {
+        padding: 0.3rem 0.3rem;
+        font-size: 0.9rem;
+    }
+    .detail__btn a {
+        display: flex;
+        font-size: 0.9rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .new__born-head h1 {
+        font-size: 1.6rem;
+    }
+
+  }

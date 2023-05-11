@@ -1,0 +1,75 @@
+.rechargeBank {
+    margin-top: 4rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid rgb(229, 231, 235);
+    background: linear-gradient(#30142b, #a12727);
+}
+
+.rechargeBank label {
+    font-size: 1.3rem;
+    color: aqua;
+    border-radius: 3px;
+    border-bottom: 1px solid rgb(229, 231, 235);
+}
+
+.rechargeBank__head {
+    margin-top: 2rem;
+}
+
+.rechargeBank__head h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.rechargeBank__head span {
+    display: grid;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: var(--secondary-color);
+    border-radius: 3px;
+    border-bottom: 1px solid rgb(229, 231, 235);
+}
+
+.rechargeBank__head p {
+    color: aqua;
+    font-size: 1.1rem;
+}
+
+.rechargeBank__head p a {
+    text-decoration: none; 
+    color: var(--secondary-color);
+}
+
+.rechargeBank__title {
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    border-radius: 3px;
+    border-bottom: 1px solid rgb(229, 231, 235);
+}
+
+.rechargeBank__title li {
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+@media only screen and (max-width: 768px) {
+    .rechargeBank__title li,
+    .rechargeBank__head span,
+    .rechargeBank label {
+        font-size: 1.1rem;
+    }
+
+    .rechargeBank__head h1 {
+        font-size: 1.3rem;
+    }
+
+    .rechargeBank__head p {
+        font-size: 1rem;
+    }
+}

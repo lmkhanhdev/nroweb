@@ -1,0 +1,49 @@
+.accountInfor {
+    margin-top: 2.5rem;
+}
+
+.accountInfor h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #19b1ff;
+    text-align: center;
+}
+
+.accountInfor__title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--heading-color);
+    line-height: 4rem;
+}
+
+.subInfo {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.subInfo label {
+    color: var(--secondary-color);
+}
+
+.subInfo a,
+.subInfo span{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .accountInfor h1 {
+        font-size: 1.2rem;
+    }
+
+    .accountInfor__title {
+        font-size: 1rem;
+
+    }
+}
+
+
+
+
+
+

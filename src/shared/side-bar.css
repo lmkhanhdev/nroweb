@@ -1,0 +1,83 @@
+.sidebar {
+    width: 70%;
+    border: 1px solid rgb(229, 231, 235);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.sidebar__menu-transaction,
+.sidebar__menu-acc {
+    display: grid;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+
+}
+
+.sidebar__menu-transaction h1,
+.sidebar__menu-acc h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-left: 1rem;
+    border-left: 5px solid #19b1ff;
+}
+
+.sidebar__menu-transaction span,
+.sidebar__menu-acc span {
+    border-bottom: 1px solid rgb(229, 231, 235);
+}
+
+.sidebar__menu-transaction span a,
+.sidebar__menu-acc span a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--heading-color);
+}
+
+.sidebar__menu-transaction span a:hover,
+.sidebar__menu-acc span a:hover {
+    color: var(--secondary-color);
+}
+
+
+@media only screen and (max-width: 992px) {
+    .sidebar {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sidebar__menu-transaction {
+        margin-left: 2rem;
+    }
+
+    .sidebar__menu-transaction h1,
+    .sidebar__menu-acc h1 {
+        font-size: 1.2rem;
+    }
+
+    .sidebar__menu-transaction span a,
+    .sidebar__menu-acc span a {
+        font-size: 1rem;
+    }
+}
+  
+@media only screen and (max-width: 768px) {
+    .sidebar__menu-transaction,
+    .sidebar__menu-acc {
+        margin-bottom: 1rem;
+        line-height: 2.3rem;
+    }
+
+    .sidebar__menu-transaction h1,
+    .sidebar__menu-acc h1 {
+        font-size: 0.8rem;
+        padding-left: 0.3rem;
+    }
+
+    .sidebar__menu-transaction span a,
+    .sidebar__menu-acc span a {
+        font-size: 0.9rem;
+    }
+}
